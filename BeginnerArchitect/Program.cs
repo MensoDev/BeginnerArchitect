@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿WriteLine("Hello, World!\n\n");
 
-Console.WriteLine("Hello, World!");
 
+ILaboratoryRun laboratoryRun = new SingletonClient();
+
+laboratoryRun.Run();
